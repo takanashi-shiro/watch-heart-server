@@ -1,0 +1,13 @@
+{
+  "name": "watch-heart-server",
+  "version": "1.0.0",
+  "description": "WebSocket relay server for Watch Heart",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
