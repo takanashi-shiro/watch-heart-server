@@ -1,0 +1,9 @@
+services:
+  watch-heart-relay:
+    build: .
+    container_name: watch-heart-relay
+    ports:
+      - "32124:32124"
+    environment:
+      - PORT=32124
+    restart: unless-stopped
